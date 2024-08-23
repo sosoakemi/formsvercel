@@ -125,3 +125,46 @@ fieldset {
 .input-box input::placeholder {
     color: #999;
 }
+ /* ---- parte debaixo*/
+.campo p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.campo label {
+    font-size: 0.9rem;
+    color: #555;
+    display: block ;
+}
+
+.campo label input {
+    margin-right: 0.5rem;
+    margin-bottom: 15px;
+   
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 2rem;
+    border: none;
+    background-color: #6D0978;
+    padding: 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.continue-button button:hover {
+    background-color: #5a0463;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    color: inherit; /* Mantém a cor do botão */
+}
