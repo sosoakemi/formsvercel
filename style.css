@@ -30,4 +30,19 @@ fieldset {
 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.21);
 }
-   
+   /* ---- imagens*/
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D0978;
+    padding: 1rem;
+}
+
+.form-image img {
+    width: 31rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
